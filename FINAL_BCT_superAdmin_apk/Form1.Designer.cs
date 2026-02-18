@@ -275,8 +275,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 720);
-            this.Controls.Add(this.Landing);
             this.Controls.Add(this.Login);
+            this.Controls.Add(this.Landing);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Landing_login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
