@@ -91,9 +91,9 @@
             this.LogIn_container.Controls.Add(this.panel4);
             this.LogIn_container.Controls.Add(this.login_btn);
             this.LogIn_container.Controls.Add(this.login_ID_txtbox);
-            this.LogIn_container.Location = new System.Drawing.Point(523, 145);
+            this.LogIn_container.Location = new System.Drawing.Point(529, 150);
             this.LogIn_container.Name = "LogIn_container";
-            this.LogIn_container.Size = new System.Drawing.Size(389, 403);
+            this.LogIn_container.Size = new System.Drawing.Size(397, 403);
             this.LogIn_container.TabIndex = 6;
             // 
             // login_eye

@@ -54,7 +54,7 @@ namespace FINAL_BCT_superAdmin_apk
                              "port=3306;" +
                              "database=BCT_db;" +
                              "user=root;" +
-                             "password=root;";
+                             "password=;";
             return new MySqlConnection(connStr);
         }//<----
 
@@ -167,8 +167,6 @@ namespace FINAL_BCT_superAdmin_apk
                     adapter.Fill(dt);
 
                     courses_DataGridView.DataSource = dt;
-
-                    // Optional: Hide the ID column
                     courses_DataGridView.Columns["id"].Visible = false;
                 }
             }
@@ -185,10 +183,11 @@ namespace FINAL_BCT_superAdmin_apk
         private void button2_Click(object sender, EventArgs e)
         {
             Enroll_Subject.BringToFront();
+            LoadSubjects();
         }
 
         // When a cell is clicked, populate the textboxes with the course data for editing
-        private void courses_DataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void courses_DataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
@@ -203,6 +202,8 @@ namespace FINAL_BCT_superAdmin_apk
                 selectedCourseId = Convert.ToInt32(row.Cells["id"].Value);
             }
         }
+        
+        
         //EDIT BUTTON CLICK
         private void editCourse_Click(object sender, EventArgs e)
         {
@@ -415,8 +416,6 @@ namespace FINAL_BCT_superAdmin_apk
                     MessageBox.Show("Error: " + ex.Message);
             }
         }
-
-
 
         
     }

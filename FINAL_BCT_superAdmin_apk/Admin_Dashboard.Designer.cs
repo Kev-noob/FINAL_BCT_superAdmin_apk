@@ -40,6 +40,45 @@
             this.MainMenu_ = new System.Windows.Forms.Button();
             this.side_panel_timer = new System.Windows.Forms.Timer(this.components);
             this.MAIN_CONTAINER = new System.Windows.Forms.Panel();
+            this.Manage_Enroll = new System.Windows.Forms.Panel();
+            this.Enroll_AlignSubject = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label16 = new System.Windows.Forms.Label();
+            this.Enroll_Subject = new System.Windows.Forms.Panel();
+            this.clear = new System.Windows.Forms.Button();
+            this.subject_name = new System.Windows.Forms.TextBox();
+            this.subject_units = new System.Windows.Forms.TextBox();
+            this.subject_code = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.delateSub = new System.Windows.Forms.Button();
+            this.editSub = new System.Windows.Forms.Button();
+            this.addSub = new System.Windows.Forms.Button();
+            this.subjects_dataGridView = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Enroll_Course = new System.Windows.Forms.Panel();
+            this.clear_inputs = new System.Windows.Forms.Button();
+            this.entr_course_name = new System.Windows.Forms.TextBox();
+            this.entr_department = new System.Windows.Forms.TextBox();
+            this.entr_course_code = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.delateCourse = new System.Windows.Forms.Button();
+            this.editCourse = new System.Windows.Forms.Button();
+            this.addCourse = new System.Windows.Forms.Button();
+            this.courses_DataGridView = new System.Windows.Forms.DataGridView();
+            this.course_label = new System.Windows.Forms.Label();
+            this.Enroll_Side = new System.Windows.Forms.Panel();
+            this.subject_align = new System.Windows.Forms.Button();
+            this.option_label = new System.Windows.Forms.Label();
+            this.subject_management = new System.Windows.Forms.Button();
+            this.course_management = new System.Windows.Forms.Button();
+            this.Enroll_Top = new System.Windows.Forms.Panel();
+            this.manage_enrollment_label = new System.Windows.Forms.Label();
             this.Home_panel = new System.Windows.Forms.Panel();
             this.Admin_Manage = new System.Windows.Forms.Panel();
             this.admin_fill = new System.Windows.Forms.Panel();
@@ -54,17 +93,6 @@
             this.instructor_left = new System.Windows.Forms.Panel();
             this.instructor_top = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.Manage_Enroll = new System.Windows.Forms.Panel();
-            this.Enroll_Course = new System.Windows.Forms.Panel();
-            this.course_label = new System.Windows.Forms.Label();
-            this.Enroll_Subject = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Enroll_Side = new System.Windows.Forms.Panel();
-            this.subject_management = new System.Windows.Forms.Button();
-            this.course_management = new System.Windows.Forms.Button();
-            this.Enroll_Top = new System.Windows.Forms.Panel();
-            this.option_label = new System.Windows.Forms.Label();
-            this.manage_enrollment_label = new System.Windows.Forms.Label();
             this.Billing = new System.Windows.Forms.Panel();
             this.adjust_billing = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
@@ -76,42 +104,49 @@
             this.billing_top = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.courses_DataGridView = new System.Windows.Forms.DataGridView();
-            this.addCourse = new System.Windows.Forms.Button();
-            this.editCourse = new System.Windows.Forms.Button();
-            this.delateCourse = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.entr_course_code = new System.Windows.Forms.TextBox();
-            this.entr_department = new System.Windows.Forms.TextBox();
-            this.entr_course_name = new System.Windows.Forms.TextBox();
-            this.clear_inputs = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.sideBar_container.SuspendLayout();
             this.main_menu.SuspendLayout();
             this.MAIN_CONTAINER.SuspendLayout();
+            this.Manage_Enroll.SuspendLayout();
+            this.Enroll_AlignSubject.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Enroll_Subject.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subjects_dataGridView)).BeginInit();
+            this.Enroll_Course.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).BeginInit();
+            this.Enroll_Side.SuspendLayout();
+            this.Enroll_Top.SuspendLayout();
             this.Admin_Manage.SuspendLayout();
             this.admin_fill.SuspendLayout();
             this.admin_top.SuspendLayout();
             this.Manage_Instructor.SuspendLayout();
             this.instructor_fill.SuspendLayout();
             this.instructor_top.SuspendLayout();
-            this.Manage_Enroll.SuspendLayout();
-            this.Enroll_Course.SuspendLayout();
-            this.Enroll_Subject.SuspendLayout();
-            this.Enroll_Side.SuspendLayout();
-            this.Enroll_Top.SuspendLayout();
             this.Billing.SuspendLayout();
             this.adjust_billing.SuspendLayout();
             this.student_billing.SuspendLayout();
             this.billing_left.SuspendLayout();
             this.billing_top.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // sideBar_container
             // 
-            this.sideBar_container.BackColor = System.Drawing.Color.White;
+            this.sideBar_container.BackColor = System.Drawing.Color.Gainsboro;
             this.sideBar_container.Controls.Add(this.button5);
             this.sideBar_container.Controls.Add(this.logOut_);
             this.sideBar_container.Controls.Add(this.admins_);
@@ -293,6 +328,565 @@
             this.MAIN_CONTAINER.Size = new System.Drawing.Size(954, 720);
             this.MAIN_CONTAINER.TabIndex = 7;
             // 
+            // Manage_Enroll
+            // 
+            this.Manage_Enroll.Controls.Add(this.Enroll_AlignSubject);
+            this.Manage_Enroll.Controls.Add(this.Enroll_Subject);
+            this.Manage_Enroll.Controls.Add(this.Enroll_Course);
+            this.Manage_Enroll.Controls.Add(this.Enroll_Side);
+            this.Manage_Enroll.Controls.Add(this.Enroll_Top);
+            this.Manage_Enroll.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Manage_Enroll.Location = new System.Drawing.Point(0, 0);
+            this.Manage_Enroll.Name = "Manage_Enroll";
+            this.Manage_Enroll.Size = new System.Drawing.Size(954, 720);
+            this.Manage_Enroll.TabIndex = 7;
+            // 
+            // Enroll_AlignSubject
+            // 
+            this.Enroll_AlignSubject.BackColor = System.Drawing.Color.White;
+            this.Enroll_AlignSubject.Controls.Add(this.panel2);
+            this.Enroll_AlignSubject.Controls.Add(this.panel1);
+            this.Enroll_AlignSubject.Controls.Add(this.label16);
+            this.Enroll_AlignSubject.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Enroll_AlignSubject.Location = new System.Drawing.Point(200, 76);
+            this.Enroll_AlignSubject.Name = "Enroll_AlignSubject";
+            this.Enroll_AlignSubject.Size = new System.Drawing.Size(754, 644);
+            this.Enroll_AlignSubject.TabIndex = 27;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.label20);
+            this.panel2.Controls.Add(this.label17);
+            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Location = new System.Drawing.Point(339, 120);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(394, 496);
+            this.panel2.TabIndex = 5;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label17.ForeColor = System.Drawing.Color.Maroon;
+            this.label17.Location = new System.Drawing.Point(102, 15);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(182, 27);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Current alignment";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 149);
+            this.dataGridView1.MultiSelect = false;
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(394, 347);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label16.ForeColor = System.Drawing.Color.Maroon;
+            this.label16.Location = new System.Drawing.Point(31, 27);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(220, 42);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Subjects Align";
+            // 
+            // Enroll_Subject
+            // 
+            this.Enroll_Subject.BackColor = System.Drawing.Color.White;
+            this.Enroll_Subject.Controls.Add(this.clear);
+            this.Enroll_Subject.Controls.Add(this.subject_name);
+            this.Enroll_Subject.Controls.Add(this.subject_units);
+            this.Enroll_Subject.Controls.Add(this.subject_code);
+            this.Enroll_Subject.Controls.Add(this.label12);
+            this.Enroll_Subject.Controls.Add(this.label14);
+            this.Enroll_Subject.Controls.Add(this.label15);
+            this.Enroll_Subject.Controls.Add(this.delateSub);
+            this.Enroll_Subject.Controls.Add(this.editSub);
+            this.Enroll_Subject.Controls.Add(this.addSub);
+            this.Enroll_Subject.Controls.Add(this.subjects_dataGridView);
+            this.Enroll_Subject.Controls.Add(this.label6);
+            this.Enroll_Subject.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Enroll_Subject.Location = new System.Drawing.Point(200, 76);
+            this.Enroll_Subject.Name = "Enroll_Subject";
+            this.Enroll_Subject.Size = new System.Drawing.Size(754, 644);
+            this.Enroll_Subject.TabIndex = 3;
+            // 
+            // clear
+            // 
+            this.clear.BackColor = System.Drawing.Color.Transparent;
+            this.clear.FlatAppearance.BorderSize = 0;
+            this.clear.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.clear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clear.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.clear.ForeColor = System.Drawing.Color.Maroon;
+            this.clear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clear.Location = new System.Drawing.Point(189, 317);
+            this.clear.Name = "clear";
+            this.clear.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.clear.Size = new System.Drawing.Size(89, 45);
+            this.clear.TabIndex = 26;
+            this.clear.Text = "Clear";
+            this.clear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clear.UseVisualStyleBackColor = false;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
+            // 
+            // subject_name
+            // 
+            this.subject_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject_name.ForeColor = System.Drawing.Color.Maroon;
+            this.subject_name.Location = new System.Drawing.Point(229, 174);
+            this.subject_name.Multiline = true;
+            this.subject_name.Name = "subject_name";
+            this.subject_name.Size = new System.Drawing.Size(438, 28);
+            this.subject_name.TabIndex = 25;
+            // 
+            // subject_units
+            // 
+            this.subject_units.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject_units.ForeColor = System.Drawing.Color.Maroon;
+            this.subject_units.Location = new System.Drawing.Point(229, 235);
+            this.subject_units.Multiline = true;
+            this.subject_units.Name = "subject_units";
+            this.subject_units.Size = new System.Drawing.Size(438, 28);
+            this.subject_units.TabIndex = 24;
+            // 
+            // subject_code
+            // 
+            this.subject_code.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subject_code.ForeColor = System.Drawing.Color.Maroon;
+            this.subject_code.Location = new System.Drawing.Point(229, 111);
+            this.subject_code.Multiline = true;
+            this.subject_code.Name = "subject_code";
+            this.subject_code.Size = new System.Drawing.Size(438, 28);
+            this.subject_code.TabIndex = 23;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label12.ForeColor = System.Drawing.Color.Maroon;
+            this.label12.Location = new System.Drawing.Point(143, 234);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(67, 27);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Units:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label14.ForeColor = System.Drawing.Color.Maroon;
+            this.label14.Location = new System.Drawing.Point(72, 111);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(138, 27);
+            this.label14.TabIndex = 21;
+            this.label14.Text = "Subject code:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.ForeColor = System.Drawing.Color.Maroon;
+            this.label15.Location = new System.Drawing.Point(65, 174);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(145, 27);
+            this.label15.TabIndex = 20;
+            this.label15.Text = "Subject name:";
+            // 
+            // delateSub
+            // 
+            this.delateSub.BackColor = System.Drawing.Color.Transparent;
+            this.delateSub.FlatAppearance.BorderSize = 0;
+            this.delateSub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.delateSub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.delateSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.delateSub.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.delateSub.ForeColor = System.Drawing.Color.Maroon;
+            this.delateSub.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.delateSub.Location = new System.Drawing.Point(582, 317);
+            this.delateSub.Name = "delateSub";
+            this.delateSub.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.delateSub.Size = new System.Drawing.Size(169, 45);
+            this.delateSub.TabIndex = 19;
+            this.delateSub.Text = "Delete Subject";
+            this.delateSub.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.delateSub.UseVisualStyleBackColor = false;
+            this.delateSub.Click += new System.EventHandler(this.delateSub_Click);
+            // 
+            // editSub
+            // 
+            this.editSub.BackColor = System.Drawing.Color.Transparent;
+            this.editSub.FlatAppearance.BorderSize = 0;
+            this.editSub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.editSub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.editSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editSub.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.editSub.ForeColor = System.Drawing.Color.Maroon;
+            this.editSub.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.editSub.Location = new System.Drawing.Point(434, 317);
+            this.editSub.Name = "editSub";
+            this.editSub.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.editSub.Size = new System.Drawing.Size(149, 45);
+            this.editSub.TabIndex = 18;
+            this.editSub.Text = "Edit Subject";
+            this.editSub.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.editSub.UseVisualStyleBackColor = false;
+            this.editSub.Click += new System.EventHandler(this.editSub_Click);
+            // 
+            // addSub
+            // 
+            this.addSub.BackColor = System.Drawing.Color.Transparent;
+            this.addSub.FlatAppearance.BorderSize = 0;
+            this.addSub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.addSub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.addSub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addSub.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.addSub.ForeColor = System.Drawing.Color.Maroon;
+            this.addSub.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addSub.Location = new System.Drawing.Point(284, 317);
+            this.addSub.Name = "addSub";
+            this.addSub.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.addSub.Size = new System.Drawing.Size(144, 45);
+            this.addSub.TabIndex = 17;
+            this.addSub.Text = "Add Subject";
+            this.addSub.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addSub.UseVisualStyleBackColor = false;
+            this.addSub.Click += new System.EventHandler(this.addSub_Click);
+            // 
+            // subjects_dataGridView
+            // 
+            this.subjects_dataGridView.AllowUserToAddRows = false;
+            this.subjects_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.subjects_dataGridView.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.subjects_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.subjects_dataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.subjects_dataGridView.Location = new System.Drawing.Point(0, 368);
+            this.subjects_dataGridView.Name = "subjects_dataGridView";
+            this.subjects_dataGridView.ReadOnly = true;
+            this.subjects_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.subjects_dataGridView.Size = new System.Drawing.Size(754, 276);
+            this.subjects_dataGridView.TabIndex = 16;
+            this.subjects_dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.subjects_dataGridView_CellClick);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label6.ForeColor = System.Drawing.Color.Maroon;
+            this.label6.Location = new System.Drawing.Point(31, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(140, 42);
+            this.label6.TabIndex = 2;
+            this.label6.Text = "Subjects";
+            // 
+            // Enroll_Course
+            // 
+            this.Enroll_Course.BackColor = System.Drawing.Color.White;
+            this.Enroll_Course.Controls.Add(this.clear_inputs);
+            this.Enroll_Course.Controls.Add(this.entr_course_name);
+            this.Enroll_Course.Controls.Add(this.entr_department);
+            this.Enroll_Course.Controls.Add(this.entr_course_code);
+            this.Enroll_Course.Controls.Add(this.label5);
+            this.Enroll_Course.Controls.Add(this.label4);
+            this.Enroll_Course.Controls.Add(this.label1);
+            this.Enroll_Course.Controls.Add(this.delateCourse);
+            this.Enroll_Course.Controls.Add(this.editCourse);
+            this.Enroll_Course.Controls.Add(this.addCourse);
+            this.Enroll_Course.Controls.Add(this.courses_DataGridView);
+            this.Enroll_Course.Controls.Add(this.course_label);
+            this.Enroll_Course.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Enroll_Course.Location = new System.Drawing.Point(200, 76);
+            this.Enroll_Course.Name = "Enroll_Course";
+            this.Enroll_Course.Size = new System.Drawing.Size(754, 644);
+            this.Enroll_Course.TabIndex = 4;
+            // 
+            // clear_inputs
+            // 
+            this.clear_inputs.BackColor = System.Drawing.Color.Transparent;
+            this.clear_inputs.FlatAppearance.BorderSize = 0;
+            this.clear_inputs.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.clear_inputs.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.clear_inputs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clear_inputs.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.clear_inputs.ForeColor = System.Drawing.Color.Maroon;
+            this.clear_inputs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clear_inputs.Location = new System.Drawing.Point(189, 317);
+            this.clear_inputs.Name = "clear_inputs";
+            this.clear_inputs.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.clear_inputs.Size = new System.Drawing.Size(89, 45);
+            this.clear_inputs.TabIndex = 14;
+            this.clear_inputs.Text = "Clear";
+            this.clear_inputs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clear_inputs.UseVisualStyleBackColor = false;
+            this.clear_inputs.Click += new System.EventHandler(this.clear_inputs_Click);
+            // 
+            // entr_course_name
+            // 
+            this.entr_course_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entr_course_name.ForeColor = System.Drawing.Color.Maroon;
+            this.entr_course_name.Location = new System.Drawing.Point(229, 174);
+            this.entr_course_name.Multiline = true;
+            this.entr_course_name.Name = "entr_course_name";
+            this.entr_course_name.Size = new System.Drawing.Size(438, 28);
+            this.entr_course_name.TabIndex = 13;
+            // 
+            // entr_department
+            // 
+            this.entr_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entr_department.ForeColor = System.Drawing.Color.Maroon;
+            this.entr_department.Location = new System.Drawing.Point(229, 235);
+            this.entr_department.Multiline = true;
+            this.entr_department.Name = "entr_department";
+            this.entr_department.Size = new System.Drawing.Size(438, 28);
+            this.entr_department.TabIndex = 12;
+            // 
+            // entr_course_code
+            // 
+            this.entr_course_code.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.entr_course_code.ForeColor = System.Drawing.Color.Maroon;
+            this.entr_course_code.Location = new System.Drawing.Point(229, 111);
+            this.entr_course_code.Multiline = true;
+            this.entr_course_code.Name = "entr_course_code";
+            this.entr_course_code.Size = new System.Drawing.Size(438, 28);
+            this.entr_course_code.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label5.ForeColor = System.Drawing.Color.Maroon;
+            this.label5.Location = new System.Drawing.Point(79, 235);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 27);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Department:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label4.ForeColor = System.Drawing.Color.Maroon;
+            this.label4.Location = new System.Drawing.Point(79, 111);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(131, 27);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Course code:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(79, 174);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(138, 27);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Course name:";
+            // 
+            // delateCourse
+            // 
+            this.delateCourse.BackColor = System.Drawing.Color.Transparent;
+            this.delateCourse.FlatAppearance.BorderSize = 0;
+            this.delateCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.delateCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.delateCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.delateCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.delateCourse.ForeColor = System.Drawing.Color.Maroon;
+            this.delateCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.delateCourse.Location = new System.Drawing.Point(582, 317);
+            this.delateCourse.Name = "delateCourse";
+            this.delateCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.delateCourse.Size = new System.Drawing.Size(160, 45);
+            this.delateCourse.TabIndex = 7;
+            this.delateCourse.Text = "Delete Course";
+            this.delateCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.delateCourse.UseVisualStyleBackColor = false;
+            this.delateCourse.Click += new System.EventHandler(this.delateCourse_Click);
+            // 
+            // editCourse
+            // 
+            this.editCourse.BackColor = System.Drawing.Color.Transparent;
+            this.editCourse.FlatAppearance.BorderSize = 0;
+            this.editCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.editCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.editCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.editCourse.ForeColor = System.Drawing.Color.Maroon;
+            this.editCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.editCourse.Location = new System.Drawing.Point(434, 317);
+            this.editCourse.Name = "editCourse";
+            this.editCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.editCourse.Size = new System.Drawing.Size(142, 45);
+            this.editCourse.TabIndex = 6;
+            this.editCourse.Text = "Edit Course";
+            this.editCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.editCourse.UseVisualStyleBackColor = false;
+            this.editCourse.Click += new System.EventHandler(this.editCourse_Click);
+            // 
+            // addCourse
+            // 
+            this.addCourse.BackColor = System.Drawing.Color.Transparent;
+            this.addCourse.FlatAppearance.BorderSize = 0;
+            this.addCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.addCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.addCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.addCourse.ForeColor = System.Drawing.Color.Maroon;
+            this.addCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addCourse.Location = new System.Drawing.Point(284, 317);
+            this.addCourse.Name = "addCourse";
+            this.addCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.addCourse.Size = new System.Drawing.Size(144, 45);
+            this.addCourse.TabIndex = 5;
+            this.addCourse.Text = "Add Course";
+            this.addCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.addCourse.UseVisualStyleBackColor = false;
+            this.addCourse.Click += new System.EventHandler(this.addCourse_Click);
+            // 
+            // courses_DataGridView
+            // 
+            this.courses_DataGridView.AllowUserToAddRows = false;
+            this.courses_DataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.courses_DataGridView.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.courses_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.courses_DataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.courses_DataGridView.Location = new System.Drawing.Point(0, 368);
+            this.courses_DataGridView.Name = "courses_DataGridView";
+            this.courses_DataGridView.ReadOnly = true;
+            this.courses_DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.courses_DataGridView.Size = new System.Drawing.Size(754, 276);
+            this.courses_DataGridView.TabIndex = 2;
+            this.courses_DataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.courses_DataGridView_CellClick);
+            // 
+            // course_label
+            // 
+            this.course_label.AutoSize = true;
+            this.course_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.course_label.ForeColor = System.Drawing.Color.Maroon;
+            this.course_label.Location = new System.Drawing.Point(31, 27);
+            this.course_label.Name = "course_label";
+            this.course_label.Size = new System.Drawing.Size(131, 42);
+            this.course_label.TabIndex = 1;
+            this.course_label.Text = "Courses";
+            // 
+            // Enroll_Side
+            // 
+            this.Enroll_Side.BackColor = System.Drawing.Color.Maroon;
+            this.Enroll_Side.Controls.Add(this.subject_align);
+            this.Enroll_Side.Controls.Add(this.option_label);
+            this.Enroll_Side.Controls.Add(this.subject_management);
+            this.Enroll_Side.Controls.Add(this.course_management);
+            this.Enroll_Side.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Enroll_Side.Location = new System.Drawing.Point(0, 76);
+            this.Enroll_Side.Name = "Enroll_Side";
+            this.Enroll_Side.Size = new System.Drawing.Size(200, 644);
+            this.Enroll_Side.TabIndex = 2;
+            // 
+            // subject_align
+            // 
+            this.subject_align.BackColor = System.Drawing.Color.Transparent;
+            this.subject_align.FlatAppearance.BorderSize = 0;
+            this.subject_align.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.subject_align.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.subject_align.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subject_align.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.subject_align.ForeColor = System.Drawing.Color.White;
+            this.subject_align.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subject_align.Location = new System.Drawing.Point(0, 310);
+            this.subject_align.Name = "subject_align";
+            this.subject_align.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.subject_align.Size = new System.Drawing.Size(200, 80);
+            this.subject_align.TabIndex = 6;
+            this.subject_align.Text = "Subject align";
+            this.subject_align.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subject_align.UseVisualStyleBackColor = false;
+            this.subject_align.Click += new System.EventHandler(this.subject_align_Click);
+            // 
+            // option_label
+            // 
+            this.option_label.AutoSize = true;
+            this.option_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.option_label.ForeColor = System.Drawing.Color.White;
+            this.option_label.Location = new System.Drawing.Point(27, 27);
+            this.option_label.Name = "option_label";
+            this.option_label.Size = new System.Drawing.Size(130, 42);
+            this.option_label.TabIndex = 1;
+            this.option_label.Text = "Options";
+            // 
+            // subject_management
+            // 
+            this.subject_management.BackColor = System.Drawing.Color.Transparent;
+            this.subject_management.FlatAppearance.BorderSize = 0;
+            this.subject_management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.subject_management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.subject_management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subject_management.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.subject_management.ForeColor = System.Drawing.Color.White;
+            this.subject_management.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subject_management.Location = new System.Drawing.Point(0, 207);
+            this.subject_management.Name = "subject_management";
+            this.subject_management.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.subject_management.Size = new System.Drawing.Size(200, 80);
+            this.subject_management.TabIndex = 5;
+            this.subject_management.Text = "Subject\r\nmanagement\r\n";
+            this.subject_management.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.subject_management.UseVisualStyleBackColor = false;
+            this.subject_management.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // course_management
+            // 
+            this.course_management.BackColor = System.Drawing.Color.Transparent;
+            this.course_management.FlatAppearance.BorderSize = 0;
+            this.course_management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.course_management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.course_management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.course_management.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.course_management.ForeColor = System.Drawing.Color.White;
+            this.course_management.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.course_management.Location = new System.Drawing.Point(0, 111);
+            this.course_management.Name = "course_management";
+            this.course_management.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.course_management.Size = new System.Drawing.Size(200, 80);
+            this.course_management.TabIndex = 4;
+            this.course_management.Text = "Course\r\nmanagement\r\n";
+            this.course_management.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.course_management.UseVisualStyleBackColor = false;
+            this.course_management.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Enroll_Top
+            // 
+            this.Enroll_Top.BackColor = System.Drawing.Color.Firebrick;
+            this.Enroll_Top.Controls.Add(this.manage_enrollment_label);
+            this.Enroll_Top.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Enroll_Top.Location = new System.Drawing.Point(0, 0);
+            this.Enroll_Top.Name = "Enroll_Top";
+            this.Enroll_Top.Size = new System.Drawing.Size(954, 76);
+            this.Enroll_Top.TabIndex = 1;
+            // 
+            // manage_enrollment_label
+            // 
+            this.manage_enrollment_label.AutoSize = true;
+            this.manage_enrollment_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.manage_enrollment_label.ForeColor = System.Drawing.Color.White;
+            this.manage_enrollment_label.Location = new System.Drawing.Point(315, 16);
+            this.manage_enrollment_label.Name = "manage_enrollment_label";
+            this.manage_enrollment_label.Size = new System.Drawing.Size(299, 42);
+            this.manage_enrollment_label.TabIndex = 0;
+            this.manage_enrollment_label.Text = "Manage Enrollment\r\n";
+            // 
             // Home_panel
             // 
             this.Home_panel.BackgroundImage = global::FINAL_BCT_superAdmin_apk.Properties.Resources.dashboard_Home;
@@ -445,155 +1039,6 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Instructor Management\r\n";
             // 
-            // Manage_Enroll
-            // 
-            this.Manage_Enroll.Controls.Add(this.Enroll_Course);
-            this.Manage_Enroll.Controls.Add(this.Enroll_Subject);
-            this.Manage_Enroll.Controls.Add(this.Enroll_Side);
-            this.Manage_Enroll.Controls.Add(this.Enroll_Top);
-            this.Manage_Enroll.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Manage_Enroll.Location = new System.Drawing.Point(0, 0);
-            this.Manage_Enroll.Name = "Manage_Enroll";
-            this.Manage_Enroll.Size = new System.Drawing.Size(954, 720);
-            this.Manage_Enroll.TabIndex = 7;
-            // 
-            // Enroll_Course
-            // 
-            this.Enroll_Course.BackColor = System.Drawing.Color.White;
-            this.Enroll_Course.Controls.Add(this.clear_inputs);
-            this.Enroll_Course.Controls.Add(this.entr_course_name);
-            this.Enroll_Course.Controls.Add(this.entr_department);
-            this.Enroll_Course.Controls.Add(this.entr_course_code);
-            this.Enroll_Course.Controls.Add(this.label5);
-            this.Enroll_Course.Controls.Add(this.label4);
-            this.Enroll_Course.Controls.Add(this.label1);
-            this.Enroll_Course.Controls.Add(this.delateCourse);
-            this.Enroll_Course.Controls.Add(this.editCourse);
-            this.Enroll_Course.Controls.Add(this.addCourse);
-            this.Enroll_Course.Controls.Add(this.courses_DataGridView);
-            this.Enroll_Course.Controls.Add(this.course_label);
-            this.Enroll_Course.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Enroll_Course.Location = new System.Drawing.Point(200, 76);
-            this.Enroll_Course.Name = "Enroll_Course";
-            this.Enroll_Course.Size = new System.Drawing.Size(754, 644);
-            this.Enroll_Course.TabIndex = 4;
-            // 
-            // course_label
-            // 
-            this.course_label.AutoSize = true;
-            this.course_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.course_label.ForeColor = System.Drawing.Color.Maroon;
-            this.course_label.Location = new System.Drawing.Point(31, 27);
-            this.course_label.Name = "course_label";
-            this.course_label.Size = new System.Drawing.Size(131, 42);
-            this.course_label.TabIndex = 1;
-            this.course_label.Text = "Courses";
-            // 
-            // Enroll_Subject
-            // 
-            this.Enroll_Subject.BackColor = System.Drawing.Color.Gainsboro;
-            this.Enroll_Subject.Controls.Add(this.label6);
-            this.Enroll_Subject.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Enroll_Subject.Location = new System.Drawing.Point(200, 76);
-            this.Enroll_Subject.Name = "Enroll_Subject";
-            this.Enroll_Subject.Size = new System.Drawing.Size(754, 644);
-            this.Enroll_Subject.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(14, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 42);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Subjects";
-            // 
-            // Enroll_Side
-            // 
-            this.Enroll_Side.BackColor = System.Drawing.Color.Maroon;
-            this.Enroll_Side.Controls.Add(this.option_label);
-            this.Enroll_Side.Controls.Add(this.subject_management);
-            this.Enroll_Side.Controls.Add(this.course_management);
-            this.Enroll_Side.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Enroll_Side.Location = new System.Drawing.Point(0, 76);
-            this.Enroll_Side.Name = "Enroll_Side";
-            this.Enroll_Side.Size = new System.Drawing.Size(200, 644);
-            this.Enroll_Side.TabIndex = 2;
-            // 
-            // subject_management
-            // 
-            this.subject_management.BackColor = System.Drawing.Color.Transparent;
-            this.subject_management.FlatAppearance.BorderSize = 0;
-            this.subject_management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.subject_management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.subject_management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.subject_management.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.subject_management.ForeColor = System.Drawing.Color.White;
-            this.subject_management.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subject_management.Location = new System.Drawing.Point(0, 207);
-            this.subject_management.Name = "subject_management";
-            this.subject_management.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.subject_management.Size = new System.Drawing.Size(200, 80);
-            this.subject_management.TabIndex = 5;
-            this.subject_management.Text = "Subject\r\nmanagement\r\n";
-            this.subject_management.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.subject_management.UseVisualStyleBackColor = false;
-            this.subject_management.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // course_management
-            // 
-            this.course_management.BackColor = System.Drawing.Color.Transparent;
-            this.course_management.FlatAppearance.BorderSize = 0;
-            this.course_management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.course_management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.course_management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.course_management.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.course_management.ForeColor = System.Drawing.Color.White;
-            this.course_management.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.course_management.Location = new System.Drawing.Point(0, 111);
-            this.course_management.Name = "course_management";
-            this.course_management.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.course_management.Size = new System.Drawing.Size(200, 80);
-            this.course_management.TabIndex = 4;
-            this.course_management.Text = "Course\r\nmanagement\r\n";
-            this.course_management.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.course_management.UseVisualStyleBackColor = false;
-            this.course_management.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // Enroll_Top
-            // 
-            this.Enroll_Top.BackColor = System.Drawing.Color.Firebrick;
-            this.Enroll_Top.Controls.Add(this.manage_enrollment_label);
-            this.Enroll_Top.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Enroll_Top.Location = new System.Drawing.Point(0, 0);
-            this.Enroll_Top.Name = "Enroll_Top";
-            this.Enroll_Top.Size = new System.Drawing.Size(954, 76);
-            this.Enroll_Top.TabIndex = 1;
-            // 
-            // option_label
-            // 
-            this.option_label.AutoSize = true;
-            this.option_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.option_label.ForeColor = System.Drawing.Color.White;
-            this.option_label.Location = new System.Drawing.Point(27, 27);
-            this.option_label.Name = "option_label";
-            this.option_label.Size = new System.Drawing.Size(130, 42);
-            this.option_label.TabIndex = 1;
-            this.option_label.Text = "Options";
-            // 
-            // manage_enrollment_label
-            // 
-            this.manage_enrollment_label.AutoSize = true;
-            this.manage_enrollment_label.Font = new System.Drawing.Font("Noto Sans JP", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.manage_enrollment_label.ForeColor = System.Drawing.Color.White;
-            this.manage_enrollment_label.Location = new System.Drawing.Point(315, 16);
-            this.manage_enrollment_label.Name = "manage_enrollment_label";
-            this.manage_enrollment_label.Size = new System.Drawing.Size(299, 42);
-            this.manage_enrollment_label.TabIndex = 0;
-            this.manage_enrollment_label.Text = "Manage Enrollment\r\n";
-            // 
             // Billing
             // 
             this.Billing.BackColor = System.Drawing.Color.White;
@@ -733,163 +1178,155 @@
             this.label8.TabIndex = 0;
             this.label8.Text = "Manage Billings";
             // 
-            // courses_DataGridView
+            // label18
             // 
-            this.courses_DataGridView.AllowUserToAddRows = false;
-            this.courses_DataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.courses_DataGridView.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.courses_DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.courses_DataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.courses_DataGridView.Location = new System.Drawing.Point(0, 399);
-            this.courses_DataGridView.Name = "courses_DataGridView";
-            this.courses_DataGridView.ReadOnly = true;
-            this.courses_DataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.courses_DataGridView.Size = new System.Drawing.Size(754, 245);
-            this.courses_DataGridView.TabIndex = 2;
-            this.courses_DataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.courses_DataGridView_CellContentClick);
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label18.ForeColor = System.Drawing.Color.Maroon;
+            this.label18.Location = new System.Drawing.Point(3, 14);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(274, 27);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Assign subject to curriculum";
             // 
-            // addCourse
+            // panel1
             // 
-            this.addCourse.BackColor = System.Drawing.Color.Transparent;
-            this.addCourse.FlatAppearance.BorderSize = 0;
-            this.addCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.addCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.addCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.addCourse.ForeColor = System.Drawing.Color.Maroon;
-            this.addCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCourse.Location = new System.Drawing.Point(259, 348);
-            this.addCourse.Name = "addCourse";
-            this.addCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.addCourse.Size = new System.Drawing.Size(144, 45);
-            this.addCourse.TabIndex = 5;
-            this.addCourse.Text = "Add Course";
-            this.addCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addCourse.UseVisualStyleBackColor = false;
-            this.addCourse.Click += new System.EventHandler(this.addCourse_Click);
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label23);
+            this.panel1.Controls.Add(this.comboBox5);
+            this.panel1.Controls.Add(this.label22);
+            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.comboBox3);
+            this.panel1.Controls.Add(this.label19);
+            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.label18);
+            this.panel1.Location = new System.Drawing.Point(17, 120);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(307, 452);
+            this.panel1.TabIndex = 4;
             // 
-            // editCourse
+            // comboBox2
             // 
-            this.editCourse.BackColor = System.Drawing.Color.Transparent;
-            this.editCourse.FlatAppearance.BorderSize = 0;
-            this.editCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.editCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.editCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.editCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.editCourse.ForeColor = System.Drawing.Color.Maroon;
-            this.editCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.editCourse.Location = new System.Drawing.Point(409, 348);
-            this.editCourse.Name = "editCourse";
-            this.editCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.editCourse.Size = new System.Drawing.Size(142, 45);
-            this.editCourse.TabIndex = 6;
-            this.editCourse.Text = "Edit Course";
-            this.editCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.editCourse.UseVisualStyleBackColor = false;
-            this.editCourse.Click += new System.EventHandler(this.editCourse_Click);
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.ForeColor = System.Drawing.Color.Maroon;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(34, 103);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(243, 28);
+            this.comboBox2.TabIndex = 6;
             // 
-            // delateCourse
+            // label19
             // 
-            this.delateCourse.BackColor = System.Drawing.Color.Transparent;
-            this.delateCourse.FlatAppearance.BorderSize = 0;
-            this.delateCourse.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.delateCourse.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.delateCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.delateCourse.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.delateCourse.ForeColor = System.Drawing.Color.Maroon;
-            this.delateCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.delateCourse.Location = new System.Drawing.Point(557, 348);
-            this.delateCourse.Name = "delateCourse";
-            this.delateCourse.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.delateCourse.Size = new System.Drawing.Size(160, 45);
-            this.delateCourse.TabIndex = 7;
-            this.delateCourse.Text = "Delete Course";
-            this.delateCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.delateCourse.UseVisualStyleBackColor = false;
-            this.delateCourse.Click += new System.EventHandler(this.delateCourse_Click);
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label19.ForeColor = System.Drawing.Color.Maroon;
+            this.label19.Location = new System.Drawing.Point(30, 76);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(69, 24);
+            this.label19.TabIndex = 7;
+            this.label19.Text = "Subject\r\n";
             // 
-            // label1
+            // label21
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(79, 174);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 27);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Course name:";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label21.ForeColor = System.Drawing.Color.Maroon;
+            this.label21.Location = new System.Drawing.Point(30, 145);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 24);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Course";
             // 
-            // label4
+            // comboBox3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.ForeColor = System.Drawing.Color.Maroon;
-            this.label4.Location = new System.Drawing.Point(79, 111);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 27);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Course code:";
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.ForeColor = System.Drawing.Color.Maroon;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(34, 172);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(243, 28);
+            this.comboBox3.TabIndex = 8;
             // 
-            // label5
+            // label22
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(79, 235);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(131, 27);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Department:";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.ForeColor = System.Drawing.Color.Maroon;
+            this.label22.Location = new System.Drawing.Point(30, 216);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(84, 24);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Year level";
             // 
-            // entr_course_code
+            // comboBox4
             // 
-            this.entr_course_code.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.entr_course_code.ForeColor = System.Drawing.Color.Maroon;
-            this.entr_course_code.Location = new System.Drawing.Point(229, 111);
-            this.entr_course_code.Multiline = true;
-            this.entr_course_code.Name = "entr_course_code";
-            this.entr_course_code.Size = new System.Drawing.Size(438, 28);
-            this.entr_course_code.TabIndex = 11;
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.ForeColor = System.Drawing.Color.Maroon;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(34, 243);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(166, 28);
+            this.comboBox4.TabIndex = 10;
             // 
-            // entr_department
+            // label23
             // 
-            this.entr_department.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.entr_department.ForeColor = System.Drawing.Color.Maroon;
-            this.entr_department.Location = new System.Drawing.Point(229, 235);
-            this.entr_department.Multiline = true;
-            this.entr_department.Name = "entr_department";
-            this.entr_department.Size = new System.Drawing.Size(438, 28);
-            this.entr_department.TabIndex = 12;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label23.ForeColor = System.Drawing.Color.Maroon;
+            this.label23.Location = new System.Drawing.Point(30, 289);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(84, 24);
+            this.label23.TabIndex = 13;
+            this.label23.Text = "Semester";
             // 
-            // entr_course_name
+            // comboBox5
             // 
-            this.entr_course_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.entr_course_name.ForeColor = System.Drawing.Color.Maroon;
-            this.entr_course_name.Location = new System.Drawing.Point(229, 174);
-            this.entr_course_name.Multiline = true;
-            this.entr_course_name.Name = "entr_course_name";
-            this.entr_course_name.Size = new System.Drawing.Size(438, 28);
-            this.entr_course_name.TabIndex = 13;
+            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox5.ForeColor = System.Drawing.Color.Maroon;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(34, 316);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(166, 28);
+            this.comboBox5.TabIndex = 12;
             // 
-            // clear_inputs
+            // button1
             // 
-            this.clear_inputs.BackColor = System.Drawing.Color.Transparent;
-            this.clear_inputs.FlatAppearance.BorderSize = 0;
-            this.clear_inputs.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
-            this.clear_inputs.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
-            this.clear_inputs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clear_inputs.Font = new System.Drawing.Font("Noto Sans JP", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.clear_inputs.ForeColor = System.Drawing.Color.Maroon;
-            this.clear_inputs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clear_inputs.Location = new System.Drawing.Point(164, 353);
-            this.clear_inputs.Name = "clear_inputs";
-            this.clear_inputs.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.clear_inputs.Size = new System.Drawing.Size(89, 34);
-            this.clear_inputs.TabIndex = 14;
-            this.clear_inputs.Text = "Clear";
-            this.clear_inputs.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.clear_inputs.UseVisualStyleBackColor = false;
-            this.clear_inputs.Click += new System.EventHandler(this.clear_inputs_Click);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Noto Sans JP Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.button1.ForeColor = System.Drawing.Color.Maroon;
+            this.button1.Location = new System.Drawing.Point(43, 378);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(207, 40);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Align subject";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.Color.Maroon;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(22, 100);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(356, 28);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Noto Sans JP", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label20.ForeColor = System.Drawing.Color.Maroon;
+            this.label20.Location = new System.Drawing.Point(18, 73);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(58, 24);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Select";
             // 
             // Admin_Dashboard
             // 
@@ -907,6 +1344,22 @@
             this.sideBar_container.ResumeLayout(false);
             this.main_menu.ResumeLayout(false);
             this.MAIN_CONTAINER.ResumeLayout(false);
+            this.Manage_Enroll.ResumeLayout(false);
+            this.Enroll_AlignSubject.ResumeLayout(false);
+            this.Enroll_AlignSubject.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Enroll_Subject.ResumeLayout(false);
+            this.Enroll_Subject.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.subjects_dataGridView)).EndInit();
+            this.Enroll_Course.ResumeLayout(false);
+            this.Enroll_Course.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).EndInit();
+            this.Enroll_Side.ResumeLayout(false);
+            this.Enroll_Side.PerformLayout();
+            this.Enroll_Top.ResumeLayout(false);
+            this.Enroll_Top.PerformLayout();
             this.Admin_Manage.ResumeLayout(false);
             this.admin_fill.ResumeLayout(false);
             this.admin_fill.PerformLayout();
@@ -917,15 +1370,6 @@
             this.instructor_fill.PerformLayout();
             this.instructor_top.ResumeLayout(false);
             this.instructor_top.PerformLayout();
-            this.Manage_Enroll.ResumeLayout(false);
-            this.Enroll_Course.ResumeLayout(false);
-            this.Enroll_Course.PerformLayout();
-            this.Enroll_Subject.ResumeLayout(false);
-            this.Enroll_Subject.PerformLayout();
-            this.Enroll_Side.ResumeLayout(false);
-            this.Enroll_Side.PerformLayout();
-            this.Enroll_Top.ResumeLayout(false);
-            this.Enroll_Top.PerformLayout();
             this.Billing.ResumeLayout(false);
             this.adjust_billing.ResumeLayout(false);
             this.adjust_billing.PerformLayout();
@@ -934,7 +1378,8 @@
             this.billing_left.ResumeLayout(false);
             this.billing_top.ResumeLayout(false);
             this.billing_top.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.courses_DataGridView)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -999,5 +1444,35 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button clear_inputs;
+        private System.Windows.Forms.Button clear;
+        private System.Windows.Forms.TextBox subject_name;
+        private System.Windows.Forms.TextBox subject_units;
+        private System.Windows.Forms.TextBox subject_code;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button delateSub;
+        private System.Windows.Forms.Button editSub;
+        private System.Windows.Forms.Button addSub;
+        private System.Windows.Forms.DataGridView subjects_dataGridView;
+        private System.Windows.Forms.Button subject_align;
+        private System.Windows.Forms.Panel Enroll_AlignSubject;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

@@ -101,6 +101,13 @@
     <Compile Include="Admin_Dashboard.Designer.cs">
       <DependentUpon>Admin_Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin_Dashboard.Enroll_AlignSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashboard.Enroll_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DAL\DBHelper.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
